@@ -1,6 +1,6 @@
-def badge_maker 
+def badge_maker(name) 
   name =["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-badge_maker.each
+badge_maker.each do 
 
 def batch_badge_creator
   
