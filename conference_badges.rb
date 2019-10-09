@@ -8,9 +8,8 @@ end
 
 def batch_badge_creator(name)
   new_array = []
-  counter = 1
-  speaker.each do |speaker|
-    puts "Hello, #{speaker}! You'll be assigned to room #{counter}!"
+  speaker.each do |name|
+   new_array.push("Hello, my name is #{name}.")
   end
- puts new_array
+return new_array
  end 
