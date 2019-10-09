@@ -13,3 +13,5 @@ def batch_badge_creator(name)
   end
 return new_array
  end 
+
+def 
