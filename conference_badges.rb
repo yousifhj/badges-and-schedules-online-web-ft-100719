@@ -1,6 +1,8 @@
 def batch_badge_creator
   
-  ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  speakers =["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  speaker.each do |speaker|
+    puts
   
   assign_rooms
   
