@@ -4,7 +4,5 @@ def batch_badge_creator
   counter = 1
   speaker.each do |speaker|
     puts "Hello, #{speaker}! You'll be assigned to room #{counter}!"
-  
-  assign_rooms
-  
-  each_with_index
+  end
+end
